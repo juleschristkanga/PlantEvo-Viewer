@@ -1,0 +1,32 @@
+
+
+.banniere {
+    padding: 100px;
+    
+    background: linear-gradient(90deg, #5E7E38, #7A8172);
+    background-image: url('images/Banniere.jpeg');
+    font-size: medium;
+}
+
+element1{
+    font-size: 25px;
+    background-color: #5E7E38;
+}
+
+.conteneur {
+  display: flex;          /* Active Flexbox */
+  flex-wrap: wrap;        /* Permet le retour à la ligne automatique */
+  gap: 5px;              /* Espace entre les blocs */
+}
+
+.bloc {
+    display: flex;
+  min-width: 200px;       /* Largeur minimale avant passage à la ligne */
+  height: 150px;
+  background-color: #5E7E38;
+  color: white;
+  display: flex;
+  justify-content: center;/* Centre le texte horizontalement */
+  align-items: center;    /* Centre le texte verticalement */
+  border-radius: 8px;
+}
